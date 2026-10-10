@@ -1,0 +1,39 @@
+{
+  "name": "cortex-ai-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1075.0",
+    "@aws-sdk/s3-request-presigner": "^3.1075.0",
+    "@google/genai": "^2.10.0",
+    "@langchain/core": "^1.2.0",
+    "@langchain/deepseek": "^1.1.3",
+    "@langchain/google-genai": "^2.2.0",
+    "@langchain/groq": "^1.3.0",
+    "@langchain/langgraph": "^1.4.4",
+    "@langchain/openrouter": "^0.4.3",
+    "@langchain/qdrant": "^1.0.3",
+    "@langchain/tavily": "^1.2.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "axios": "^1.18.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1",
+    "mongoose": "^9.7.1",
+    "multer": "^2.2.0",
+    "nodemon": "^3.1.14",
+    "pdf-parse": "^2.4.5",
+    "pdfkit": "^0.19.1",
+    "pptxgenjs": "^4.0.1",
+    "tavily": "^2.0.0"
+  }
+}

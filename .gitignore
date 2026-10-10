@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+dist-ssr/
+build/
+coverage/
+.vite/
+*.local
+
+# Environment files and local secrets
+.env
+.env.*
+
+serviceAccount.json
+serviceAccount.*.json
+*-firebase-adminsdk-*.json
+*.pem
+*.key
+
+# Runtime data and generated files
+**/temp/
+**/uploads/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor and operating system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
